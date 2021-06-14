@@ -43,7 +43,7 @@ li {
    justify-content: center;
    align-items: center;
    height: 100vh;
-   background: url('imgProject.jpg') top center / cover no-repeat;
+   background: url('https://github.com/kobayasi929/github.io/blob/main/imgProject.jpg?raw=true') top center / cover no-repeat;
 }
 h2 {
    margin: 0;
