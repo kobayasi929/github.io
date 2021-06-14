@@ -43,7 +43,7 @@ li {
    justify-content: center;
    align-items: center;
    height: 100vh;
-   background: url('image/imgProject.jpg') top center / cover no-repeat;
+   background: url('imgProject.jpg') top center / cover no-repeat;
 }
 h2 {
    margin: 0;
