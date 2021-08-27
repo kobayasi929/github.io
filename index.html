@@ -1,53 +1,56 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-   <meta charset="utf-8">
-   <meta name="robots" content="noindex,nofollow">
-   <title>HTMLベーステンプレート</title>
-
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-   <link rel="stylesheet" href="style.css">
-
-   <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
-   <script>
-   $(function() {
-      const hum = $('#hamburger, .close')
-      const nav = $('.sp-nav')
-      hum.on('click', function(){
-         nav.toggleClass('toggle');
-      });
-   });
-   </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-   <header>
-      <h1>
-         <a href="/">RICO NOTES</a>
-      </h1>
-      <nav class="pc-nav">
-         <ul>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">SERVICE</a></li>
-            <li><a href="#">COMPANY</a></li>
-            <li><a href="#">CONTACT</a></li>
-         </ul>
-      </nav>
-      <nav class="sp-nav">
-         <ul>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">SERVICE</a></li>
-            <li><a href="#">COMPANY</a></li>
-            <li><a href="#">CONTACT</a></li>
-            <li class="close"><span>閉じる</span></li>
-         </ul>
-      </nav>
-      <div id="hamburger">
-         <span></span>
-      </div>
-   </header>
-   <div class="main-visual">
-      <h2>WEB DESIGN <span>IS</span> YOUR FUTURE</h2>
-   </div>
+    <header>
+        <h1>Scroll Animation Demo</h1>
+    </header>
+
+    <main>
+      <ul class="contents">
+          <li class="animationTarget">
+              <img src="/スクロールしたら要素をフワッと/img/hiroaka.jpg" alt="">
+              <div class="contentsText">
+                  <h2>ヒロアカ</h2>
+                  <p>ここに文章が入ります。ここに文章が入ります。ここに文章が入ります。
+                      <br>ここに文章が入ります。ここに文章が入ります。
+                  </p>
+              </div>
+          </li>
+          <li class="animationTarget">
+              <img src="/スクロールしたら要素をフワッと/img/kimetu.jpg" alt="">
+              <div class="contentsText">
+                  <h2>鬼滅の刃</h2>
+                  <p>ここに文章が入ります。ここに文章が入ります。ここに文章が入ります。
+                      <br>ここに文章が入ります。ここに文章が入ります。
+                  </p>
+              </div>
+          </li>
+          <li class="animationTarget">
+              <img src="/スクロールしたら要素をフワッと/img/gintaa.jpg" alt="">
+              <div class="contentsText">
+                  <h2>銀魂</h2>
+                  <p>ここに文章が入ります。ここに文章が入ります。ここに文章が入ります。
+                      <br>ここに文章が入ります。ここに文章が入ります。
+                  </p>
+              </div>
+          </li>
+          <li class="animationTarget">
+              <img src="/スクロールしたら要素をフワッと/img/yakuneba.jpg" alt="">
+              <div class="contentsText">
+                  <h2>約束のネバーランド</h2>
+                  <p>ここに文章が入ります。ここに文章が入ります。ここに文章が入ります。
+                      <br>ここに文章が入ります。ここに文章が入ります。
+                  </p>
+              </div>
+          </li>
+      </ul>
 </body>
 </html>
